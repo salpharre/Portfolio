@@ -7,15 +7,10 @@
 }
 
 .welcome {/*jumbotron on index html - background color is to make the jumbotron meld into the body background*/
-    background-color: #0B032D;
-    padding-top: 1rem;
-    color: #FFB997;
+    background-color: white;
+    padding-top: 3rem;
+    color: #0B032D;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
 }
 
-nav {/*style navbar, border on top and bottom and a margin on the top to push apart navbar from logo*/
-    border-top: solid #FFB997;
-    border-bottom: solid #FFB997;
-    margin-top: 2rem;
-}
