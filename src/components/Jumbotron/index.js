@@ -1,10 +1,16 @@
-import React from 'react';
-import './style.css';
+// import React from 'react';
+// import './style.css';
 
-function Jumbotron(props) {
-    return (
-    <div className="jumbotron">{props.children}</div>
-    );
-};
+// function Jumbotron(props) {
+//     return (
+//     <div>{props.children}</div>
+//     );
+// };
 
-export default Jumbotron;
+// export default Jumbotron;
+
+// /*
+// {`jumbotron ${props.className ? "main": props.className ? "ed": ""}`}
+
+
+// */

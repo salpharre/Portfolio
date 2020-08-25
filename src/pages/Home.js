@@ -1,20 +1,15 @@
 import React from "react";
-import Jumbotron from "../components/Jumbotron";
+// import Jumbotron from "../components/Jumbotron";
 import Header from "../components/Header";
-import Carousel from "../components/Carousel";
+import Welcome from "../components/Welcome";
+// import Carousel from "../components/Carousel";
 
 function Home() {
     return (
         <div>
-            <Jumbotron>
-                <Header />
-            </Jumbotron>
-            <Jumbotron>
-                <Welcome />
-            </Jumbotron>
-            <Jumbotron>
-                <Carousel />
-            </Jumbotron>
+            <Header />
+            <Welcome />
+            {/*<Carousel />*/}
         </div>
     )
 };

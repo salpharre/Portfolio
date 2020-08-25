@@ -1,0 +1,15 @@
+.name {/*set color and size of name next to logo*/
+    color: #FFB997;
+    font-size: 25px;
+}
+
+.brand {/*jumbotron in header that holds the personal logo, name and navbar - removes margin on the bottom so the content under the header
+    isn't pushed down as much*/
+    margin-bottom: 0;
+    background-color: #0B032D;
+}
+
+a.nav-link, .namePort, .projectText {/*font color for navbar links, portoflio title word for portfolio html, text color for project
+    description on portfolio html*/
+    color: #FFB997;
+}

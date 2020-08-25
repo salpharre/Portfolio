@@ -1,0 +1,21 @@
+.logo {/*Sets size of font part of jumbotron on index.html*/
+    font-size: 12px;
+}
+
+.lead {/*Sets size of font part of jumbotron on index.html*/
+    font-size: 1.40rem;
+}
+
+.welcome {/*jumbotron on index html - background color is to make the jumbotron meld into the body background*/
+    background-color: #0B032D;
+    padding-top: 1rem;
+    color: #FFB997;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+nav {/*style navbar, border on top and bottom and a margin on the top to push apart navbar from logo*/
+    border-top: solid #FFB997;
+    border-bottom: solid #FFB997;
+    margin-top: 2rem;
+}

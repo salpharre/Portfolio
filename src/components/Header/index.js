@@ -1,14 +1,15 @@
 import React from 'react';
 import './style.css';
-import Jumbotron from "../Jumbotron";
+import logo from "../../images/compressed/SAlogo5.jpg";
+// import Jumbotron from "../Jumbotron";
 
 function Header() {
     return (
-        <Jumbotron>
-            <img src="./public/img/SAlogo5.jpg" width="50" height="50" className="d-inline-block imgLogo img-fluid"
+        <div className="jumbotron brand">
+            <img src={logo} width="50" height="50" className="d-inline-block imgLogo img-fluid"
                 alt="SA initials"></img>
-            <a classNameName="pl-4" href="./index.html">
-                <p classNameName="name d-inline-block">
+            <a className="pl-4" href="./index.html">
+                <p className="name d-inline-block">
                     Sandra Arredondo
                 </p>
             </a>
@@ -29,7 +30,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-        </Jumbotron>
+        </div>
     )
 };
 
