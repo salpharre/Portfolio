@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-
+//add my picture
 function Welcome() {
     return (
         <div className="jumbotron welcome">

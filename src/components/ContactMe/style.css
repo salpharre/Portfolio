@@ -1,0 +1,22 @@
+.contact, #contact, #form {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
+    left border is for ease of reading and draw eyes immediately to links*/
+    padding: 2rem 2rem;
+    background-color: white;
+    color: #0B032D;
+    border-left: ridge #74546A;
+    font-family: serif;
+    margin-top: 2rem;
+}
+
+.contactText {/*incrased font size for the word 'Contact' on contact html*/
+    font-size: 23px;
+}
+
+h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
+    font-size: 16px;
+    color: #0B032D
+}
+
+a {
+    color: #0B032D
+}

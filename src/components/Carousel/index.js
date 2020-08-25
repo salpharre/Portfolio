@@ -3,7 +3,7 @@ import img1 from "../../images/compressed/beyondvacation.jpg";
 import img2 from "../../images/compressed/weather.jpg";
 import img3 from "../../images/compressed/directory.jpg";
 
-
+//if anchor links don't work, either remove links around images or figure out how to make it work with react
 function Carousel() {
     return (
         <div className="jumbotron welcome">
