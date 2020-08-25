@@ -9,17 +9,16 @@
         "tech": [
             "Nodejs",
             "Express",
-            "MySQL",
-            "Bootstrap"
+            "SQL"
         ]
     },
     {
         "id": 2,
-        "title": "",
+        "title": "Employee Directory",
         "description": "",
         "github": "",
         "product": "",
-        "image": "../public/images/compressed/burger.jpg",
+        "image": "../public/images/compressed/employeedirectory.jpg",
         "tech": []
     },
     {
