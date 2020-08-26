@@ -17,7 +17,7 @@ function Project() {
             <div className="container">
                 <Search />
 
-                <div className="row">
+                <div className="row justify-content-center">
                     <ProjectCard />
                     <ProjectCard />
                     <ProjectCard />
