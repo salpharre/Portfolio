@@ -14,8 +14,15 @@ function Project() {
     return (
         <div>
             <Header />
+            <div className="container">
             <Search />
+            
+            <div className="row d-flex">
             <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            </div>
+            </div>
         </div>
     );
 };
