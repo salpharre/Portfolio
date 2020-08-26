@@ -5,7 +5,7 @@ import logo from "../../images/compressed/SAlogo5.jpg";
 
 function Header() {
     return (
-        <div className="jumbotron brand">
+        <header className="brand">
             <img src={logo} width="50" height="50" className="d-inline-block imgLogo img-fluid"
                 alt="SA initials"></img>
             <a className="pl-4" href="./index.html">
@@ -17,7 +17,7 @@ function Header() {
             <nav className="navbar navbar-expand justify-content-center">
                 <ul className="navbar-nav text-nowrap">
                     <li className="nav-item active">
-                        <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="index.html">Home<span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="./html/portfolio.html">Portfolio</a>
@@ -30,7 +30,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 };
 

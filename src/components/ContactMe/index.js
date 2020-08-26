@@ -1,34 +1,24 @@
 import React from "react";
 import "./style.css";
+import ContactMeFirstTab from "../ContactMeFirstTab";
+import ContactMeForm from "../ContactMeForm";
 
-//put a warning, a toolkit maybe that shows the three are links
-function ContactMe() {
+function ContactMe(props) {
     return (
         <div className="container">
-            <div className="jumbotron contact">
-                <div className="row page-header">
-                    <div className="col-3 pb-4">
-                        <h1 className="contactText">Contact</h1>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <a href="https://github.com/salpharre" target="_blank" rel="noopener noreferrer">Github Profile</a>
-                    </div>
-                    <div className="col">
-                        <a href="mailto:sandra.alpha2010@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <h2 className="text-break">sandra.alpha2010@gmail.com</h2>
-                        </a >                    
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <a href="https://www.linkedin.com/in/sandraaa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    </div>
-                    <div className="col">
-                        <h3>(530) 902-8472</h3>
-                    </div>
-                </div>
+            <ul className="nav nav-tabs" id="myTab" role="tablist">
+                <li className="nav-item" role="presentation">
+                    <a className="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                        aria-selected="true">Contact</a>
+                </li>
+                <li className="nav-item" role="presentation">
+                    <a className="nav-link" id="form-tab" data-toggle="tab" href="#form" role="tab" aria-controls="form"
+                        aria-selected="false">Form</a>
+                </li>
+            </ul>
+            <div className="tab-content" id="myTabContent">
+                <ContactMeFirstTab />
+                <ContactMeForm {...props}/>
             </div>
         </div>
     );

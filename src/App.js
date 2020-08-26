@@ -1,8 +1,8 @@
 import React from 'react';
 // import Home from './pages/Home';
 // import About from "./pages/About";
-// import Contact from "./pages/Contact";
-import Project from "./pages/Project";
+import Contact from "./pages/Contact";
+// import Project from "./pages/Project";
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    <Project />
+    <Contact />
     </div>
   )
 }
