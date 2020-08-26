@@ -18,8 +18,10 @@ function ContactMeForm(props) {
                         id="email" 
                         name="email"
                         onChange={props.handleChange}
+                        onBlur={props.handleBlur}
                         value={props.email}
                         ></input>
+                        {props.emailErrors && props.emailTouched ? <div>{props.emailErrors}</div> : null}
                     </div>
                 </div>
                 <div className="form-group row">
@@ -32,8 +34,10 @@ function ContactMeForm(props) {
                          placeholder="Your Message Here"
                          name="text"
                          onChange={props.handleChange}
+                         onBlur={props.handleBlur}
                          value={props.text}
                          ></textarea>
+                         {props.textErrors && props.textTouched ? <div>{props.textErrors}</div> : null}
                     </div>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
