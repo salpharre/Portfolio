@@ -7,9 +7,9 @@
 }
 
 .welcome {/*jumbotron on index html - background color is to make the jumbotron meld into the body background*/
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.945);
     padding-top: 3rem;
-    color: #0B032D;
+    color: #1f1f1f;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     font-family: serif;

@@ -1,8 +1,8 @@
 .contact, #contact, #form {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
     left border is for ease of reading and draw eyes immediately to links*/
     padding: 2rem 2rem;
-    background-color: white;
-    color: #0B032D;
+    background-color: rgba(255, 255, 255, 0.945);
+    color: #1f1f1f;
     border-left: ridge #74546A;
     font-family: serif;
     margin-top: 2rem;
@@ -14,9 +14,9 @@
 
 h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
     font-size: 16px;
-    color: #0B032D
+    color: #1f1f1f
 }
 
 a {
-    color: #0B032D
+    color: #1f1f1f
 }

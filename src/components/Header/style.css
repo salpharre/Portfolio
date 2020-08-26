@@ -1,5 +1,5 @@
 .name {/*set color and size of name next to logo*/
-    color: white;
+    color: rgba(255, 255, 255, 0.945);
     font-size: 25px;
 }
 
@@ -13,11 +13,11 @@
 
 a.nav-link, .namePort, .projectText {/*font color for navbar links, portoflio title word for portfolio html, text color for project
     description on portfolio html*/
-    color: white;
+    color: rgba(255, 255, 255, 0.945);
 }
 /*style navbar, border on top and bottom and a margin on the top to push apart navbar from logo*/
 nav {
-    border-top: solid white;
+    border-top: solid rgba(255, 255, 255, 0.945);
     border-bottom: none;
     margin-top: 2rem;
 }

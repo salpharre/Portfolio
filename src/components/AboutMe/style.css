@@ -2,16 +2,9 @@
     font color for header tags is set, border on the left side is applied to make it pop more*/
     padding: 2rem 2rem;
     margin-top: 2rem;
-    background-color: white;
-    color: #0B032D;
+    background-color: rgba(255, 255, 255, 0.945);
+    color: #1f1f1f;
     border-left: ridge #74546A;
-}
-
-.ed {/*jumbotron on the right in about html - padding is greatly decreased, border is to make jubotron pop more*/
-    padding: 1rem 1rem;
-    background-color: white;
-    color: #0B032D;
-    border-bottom: ridge #74546A;
 }
 
 h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
