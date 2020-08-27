@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
 import ProjectCard from "../components/ProjectCard";
-import db from "../projectData/projects";
+import db from "../projects";
 import Search from "../components/Search";
 import Header from "../components/Header";
 
 function Project() {
+    const projectList = db.Projects;
 
     const [project, setProject] = useState([]);
     const [search, setSearch] = useState("");
 
     function loadProjects() {
-        setProject(db);
+        setProject(projectList);
     }
 
     useEffect(() => {
@@ -23,7 +24,7 @@ function Project() {
     }, [search]);
 
     function filterInput() {
-        const filterTech = db.filter(technology => {
+        const filterTech = projectList.filter(technology => {
             const lowerCaseInputTech = search.toLocaleLowerCase();
             const lowerCaseSTech = technology.tech.toLocaleLowerCase();
             const tech = technology.tech;
@@ -61,7 +62,7 @@ return (
                     <ProjectCard
                         key={project.id}
                         title={project.title}
-                        image={project.image}
+                        image={project.images}
                         description={project.description}
                         github={project.github}
                         tech={project.tech}

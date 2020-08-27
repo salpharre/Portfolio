@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import logo from "../../projectData/SAlogo5.jpg";
+import logo from "../../images/SAlogo5.jpg";
 
 function Header() {
     return (
