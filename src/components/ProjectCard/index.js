@@ -2,9 +2,6 @@ import React from "react";
 import "./style.css";
 import img from "../../images/compressed/beyondvacation.jpg";
 
-//make sure buttons are responsive!
-//now it's horizontal and flexes correctly, but it's not centered at minimized window
-//decided to go mobile first then up to larger screens, replaced d-flex with flex-row only(works in smaller screens now) -- might need to do media query with flex box to get it to do what i want in larger screens
 //it works!! it flexs well!!
 function ProjectCard() {
     return (

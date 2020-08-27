@@ -4,7 +4,7 @@ import "./style.css";
 //props.value to be grabbed by handleinputchange
 function Search() {
     return (
-        <div className="col-4 mt-3 justify-content-center">
+        <div className="col-4 mt-1 justify-content-center">
             <input
             // value={props.value}
             // onChange={props.handleInputChange}

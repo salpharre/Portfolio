@@ -1,13 +1,3 @@
-#contact, #form {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
-    left border is for ease of reading and draw eyes immediately to links*/
-    padding: 2rem 2rem;
-    background-color: rgba(255, 255, 255, 0.945);
-    color: #1f1f1f;
-    border-left: ridge #74546A;
-    font-family: serif;
-    margin-top: 2rem;
-}
-
 .container {
     margin-top: 2rem;
 }
@@ -21,26 +11,10 @@ h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
     color: #1f1f1f
 }
 
-input.displayNone {
-    display: none;
-}
-
 a {
     color: #1f1f1f
 }
 
-a#contact-tab.nav-link.active, a#form-tab.nav-link.active {/*Sets color and border color of tabs in contact html*/
-    color: #1f1f1f;
-    background-color: rgba(255, 255, 255, 0.945);
-    border-color: #74546A;
-}
-
-.nav-tabs {/*Sets font color and border color and design for tabs in contact html*/
-    color: #1f1f1f;
-    border-bottom: #74546A ridge;
-}
-
-a#contact-tab.nav-link, a#form-tab.nav-link {/*font color for navbar links, portoflio title word for portfolio html, text color for project
-    description on portfolio html*/
-    color: #1f1f1f;
+.card {
+    width: 30rem;
 }

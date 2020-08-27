@@ -1,3 +1,7 @@
 .cardParent {
     max-width: 540px;
 }
+
+.info {
+    margin-top: 1rem;
+}
