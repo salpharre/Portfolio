@@ -4,8 +4,8 @@ import "./style.css";
 //props.value to be grabbed by handleinputchange
 function Search(props) {
     return (
-        <div className="row justify-content-center">
-            <div className="col-4 mt-1 justify-content-center">
+        <div className="row mx-auto justify-content-center">
+            {/* <div className="col-4 mt-1 justify-content-center"> */}
                 <input
                     value={props.value}
                     onChange={props.handleInputChange}
@@ -13,7 +13,7 @@ function Search(props) {
                     type="text"
                     placeholder="Enter Technology"
                 />
-            </div>
+            {/* </div> */}
         </div>
     );
 };
