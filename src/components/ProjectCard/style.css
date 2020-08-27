@@ -1,6 +1,6 @@
-/* .cardParent {
-    max-width: 300px;
-} */
+.cardParent {
+    max-width: 540px;
+}
 
 .info {
     margin-top: 1rem;
@@ -8,4 +8,14 @@
 
 .github {
     color: #1f1f1f
+}
+
+/* .project {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.card-deck .card {
+    min-width: 220px;
 }

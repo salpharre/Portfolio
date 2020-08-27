@@ -13,7 +13,7 @@ const db = {
             "title": "Employee Directory",
             "description": "This app allows users to sort employees alphabetically and filter by name",
             "github": "https://github.com/salpharre/Employee-Directory",
-            "images": require("./images/employeedirectory.jpg"),
+            "images": require("./images/directory.jpg"),
             "tech": "React, Bootstrap"
         },
         {

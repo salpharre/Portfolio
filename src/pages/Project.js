@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ProjectCard from "../components/ProjectCard";
 import db from "../projects";
 import Search from "../components/Search";
+import "../components/ProjectCard/style.css";
 
 function Project() {
     const projectList = db.Projects;
@@ -38,16 +39,15 @@ function Project() {
     };
 
 
-const handleInputChange = e => {
-    const value = e.target.value;
-    console.log(value);
-    setSearch(value);
-}
+    const handleInputChange = e => {
+        const value = e.target.value;
+        console.log(value);
+        setSearch(value);
+    }
 
 
-return (
-    <div>
-        <div className="container mb-5">
+    return (
+        <div className="project">
             <div className="row justify-content-center info">
                 <p>Looking for a specific technology? Start typing below.</p>
             </div>
@@ -55,7 +55,8 @@ return (
                 handleInputChange={handleInputChange}
                 value={search}
             />
-            <div className="row justify-content-center">
+            {/* <div className="container justify-content-center"> */}
+                <div className="card-deck  d-flex flex-wrap">
                 {project.map(project => (
                     <ProjectCard
                         key={project.id}
@@ -65,10 +66,10 @@ return (
                         github={project.github}
                         tech={project.tech}
                     />))}
-            </div>
+                </div>
+            {/* </div> */}
         </div>
-    </div>
-);
+    );
 };
 
 export default Project;
