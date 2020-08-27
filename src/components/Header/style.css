@@ -3,12 +3,17 @@
     font-size: 25px;
 }
 
+.headerContainer {
+    margin-top: 0;
+}
+
 .brand {/*jumbotron in header that holds the personal logo, name and navbar - removes margin on the bottom so the content under the header
     isn't pushed down as much*/
     margin-bottom: 0;
     padding-bottom: 0;
     background-color: #647490;
     font-family: serif;
+    padding-top: 1rem;
 }
 
 a.nav-link, .namePort, .projectText {/*font color for navbar links, portoflio title word for portfolio html, text color for project
@@ -19,5 +24,9 @@ a.nav-link, .namePort, .projectText {/*font color for navbar links, portoflio ti
 nav {
     border-top: solid rgba(255, 255, 255, 0.945);
     border-bottom: none;
-    margin-top: 2rem;
+    margin-top: 0;
+}
+
+.rowImg{
+    margin-bottom: 1rem;
 }

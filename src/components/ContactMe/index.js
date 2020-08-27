@@ -14,7 +14,7 @@ function ContactMe(props) {
                             </div>
                             <div className="col-6">
                                 <a href="mailto:sandra.alpha2010@gmail.com" target="_blank" rel="noopener noreferrer">
-                                    <h2 className="text-break">sandra.alpha2010@gmail.com</h2>
+                                    <h2 className="text-wrap">sandra.alpha2010@gmail.com</h2>
                                 </a>
                             </div>
                         </div>

@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <div className="jumbotron jumbotron-fluid brand">
-            <div className="container">
-                <div className="row justify-content-center">
+            <div className="container headerContainer">
+                <div className="row rowImg justify-content-center">
                 <Link to="/">
                 <img src={logo} width="50" height="50" className="imgLogo img-fluid"
                     alt="SA initials">
                 </img>
                 </Link>
                 </div>
-                <div className="row justify-content-center">
+                <div className="row rowName justify-content-center">
                 <Link className="pl-4" to="/">
                     <p className="name">
                         Sandra Arredondo
