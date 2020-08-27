@@ -1,20 +1,22 @@
 import React from "react";
 import "./style.css";
-import img from "../../images/compressed/beyondvacation.jpg";
+// import img from "../../images/compressed/beyondvacation.jpg";
 
 //it works!! it flexs well!!
-function ProjectCard() {
+function ProjectCard(props) {
     return (
         <div className="col-md">
             <div className="card mb-3 cardParent">
-                <img src={img} className="card-img img-fluid" alt="..."></img>
+                <img src={props.image} className="card-img img-fluid" alt={props.title}></img>
                 <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p className="card-text"><small className="text-muted">buttons here?</small></p>
+                    <h5 className="card-title">{props.title}</h5>
+                    <p className="card-text">{props.description}</p>
+                    <p className="card-text"><small className="text-muted">
+                        <a href={props.github} target="_blank" rel="noopener noreferrer" className="github">Github</a>
+                    </small></p>
                 </div>
                 <div className="card-footer">
-                    <p className="card-text"><small className="text-muted">Card footer - put the tech here maybe</small></p>
+                    <p className="card-text"><small className="text-muted">{props.tech}</small></p>
                 </div>
             </div>
         </div>

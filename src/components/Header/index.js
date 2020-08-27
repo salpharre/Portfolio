@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
-import logo from "../../images/compressed/SAlogo5.jpg";
-// import Jumbotron from "../Jumbotron";
+import logo from "../../projectData/SAlogo5.jpg";
 
 function Header() {
     return (
