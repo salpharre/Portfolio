@@ -55,7 +55,6 @@ function Project() {
                 handleInputChange={handleInputChange}
                 value={search}
             />
-            {/* <div className="container justify-content-center"> */}
                 <div className="card-deck  d-flex flex-wrap">
                 {project.map(project => (
                     <ProjectCard
@@ -67,7 +66,6 @@ function Project() {
                         tech={project.tech}
                     />))}
                 </div>
-            {/* </div> */}
         </div>
     );
 };
