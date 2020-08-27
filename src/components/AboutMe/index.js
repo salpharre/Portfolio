@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
-import profile from "../../images/compressed/profile2.jpeg"
+import profile from "../../images/profile2.jpeg"
 
 function AboutMe() {
     return (
-        <div className="container main">
+        <div className="container mb-5 main">
             <div className="row d-flex">
                 <div className="col-sm">
                     <div className="jumbotron about text-break">

@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
 import Welcome from "../components/Welcome";
 import Carousel from "../components/Carousel";
 
 function Home() {
     return (
-        <div>
-            <Header />
+        <div className="container mb-5">
             <Welcome />
             <Carousel />
         </div>

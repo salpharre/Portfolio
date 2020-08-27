@@ -3,7 +3,7 @@ import "./style.css";
 
 function ContactMe(props) {
     return (
-        <div className="container">
+        <div className="container mb-5">
             <div className="row justify-content-center">
                 <div className="card">
                     <div className="card-body">

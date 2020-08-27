@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-// import img from "../../images/compressed/beyondvacation.jpg";
 
 //it works!! it flexs well!!
 function ProjectCard(props) {

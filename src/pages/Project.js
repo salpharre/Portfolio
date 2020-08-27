@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ProjectCard from "../components/ProjectCard";
 import db from "../projects";
 import Search from "../components/Search";
-import Header from "../components/Header";
 
 function Project() {
     const projectList = db.Projects;
@@ -48,8 +47,7 @@ const handleInputChange = e => {
 
 return (
     <div>
-        <Header />
-        <div className="container">
+        <div className="container mb-5">
             <div className="row justify-content-center info">
                 <p>Looking for a specific technology? Start typing below.</p>
             </div>
