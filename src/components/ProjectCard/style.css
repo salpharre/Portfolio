@@ -12,9 +12,19 @@
 
 .card-deck .card {
     min-width: 220px;
+}
+
+.card {
     margin-top: 15px;
 }
 
 .projectInfo {
     text-align: center;
+}
+
+.project {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: rgba(255, 255, 255, 0.945);
 }

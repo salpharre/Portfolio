@@ -47,7 +47,7 @@ function Project() {
 
 
     return (
-        <div className="project">
+        <div>
             <div className="row justify-content-center info">
                 <p className="text-wrap projectInfo">Looking for a specific technology? Start typing below.</p>
             </div>
@@ -55,6 +55,7 @@ function Project() {
                 handleInputChange={handleInputChange}
                 value={search}
             />
+            <div className="jumbotron project">
                 <div className="card-deck  d-flex flex-wrap">
                 {project.map(project => (
                     <ProjectCard
@@ -66,6 +67,7 @@ function Project() {
                         tech={project.tech}
                     />))}
                 </div>
+            </div>
         </div>
     );
 };
