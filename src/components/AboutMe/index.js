@@ -46,19 +46,6 @@ function AboutMe() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="list-group list-group-flush">
-                                <h4 className="card-title">Education</h4>
-                                <ul>
-                                    <li>Full-Stack Web Development, UC Davis Bootcamp (2020)</li>
-                                    <li>Bachelor of Science, Food Science, UC Davis (2014-2018)</li>
-                                </ul>
-                                <h5 className="card-title">Work Experience</h5>
-                                <ul>
-                                    <li>Quality Control and R&D in Food production, La Tourangelle (1.5 years)</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -49,7 +49,7 @@ function Project() {
     return (
         <div className="project">
             <div className="row justify-content-center info">
-                <p>Looking for a specific technology? Start typing below.</p>
+                <p className="text-wrap projectInfo">Looking for a specific technology? Start typing below.</p>
             </div>
             <Search
                 handleInputChange={handleInputChange}

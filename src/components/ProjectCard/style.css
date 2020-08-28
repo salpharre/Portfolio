@@ -1,5 +1,5 @@
 .cardParent {
-    max-width: 540px;
+    max-width: auto;
 }
 
 .info {
@@ -12,4 +12,9 @@
 
 .card-deck .card {
     min-width: 220px;
+    margin-top: 15px;
+}
+
+.projectInfo {
+    text-align: center;
 }

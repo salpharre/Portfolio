@@ -4,7 +4,7 @@ import "./style.css";
 function ContactMe(props) {
     return (
         <div className="container mb-5">
-            <div className="row justify-content-center">
+            <div className="row">
                 <div className="card">
                     <div className="card-body">
                         <h5 className="card-title contactText">Contact</h5>

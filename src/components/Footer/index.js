@@ -3,11 +3,11 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer className="py-3">
-            <div className="copyright">
-                <p className="copyrightP">Copyright &copy; Sandra Arredondo</p>
-            </div>
-        </footer>
+        <section className="footer py-3">
+            <p className="copyrightP">Copyright &copy;
+                <a className="link" href="https://github.com/salpharre"> Sandra Arredondo</a>
+            </p>
+        </section>
     );
 };
 
