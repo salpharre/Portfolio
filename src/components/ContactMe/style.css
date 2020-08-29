@@ -2,6 +2,16 @@
     margin-top: 2rem;
 }
 
+.thanks {
+    color: green;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.button {
+    padding-right: 0;
+}
+
 .contactText {/*incrased font size for the word 'Contact' on contact html*/
     font-size: 23px;
 }

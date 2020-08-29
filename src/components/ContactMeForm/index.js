@@ -39,7 +39,14 @@ function ContactMeForm(props) {
                          {props.textErrors && props.textTouched ? <div>{props.textErrors}</div> : null}
                     </div>
                 </div>
+                <div className="row">
+                <div className="col button block-inline">
                 <button type="submit" className="btn btn-primary">Submit</button>
+                </div>
+                <div className="col thanks block-inline">
+                {props.success && <div>Thank you!</div>}
+                </div>
+                </div>
             </form>
             </div> 
         </div>

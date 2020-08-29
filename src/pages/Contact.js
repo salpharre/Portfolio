@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ContactMe from "../components/ContactMe";
-// import API from "../../utils";
 import { useFormik } from "formik";
 import axios from "axios";
 
@@ -34,19 +33,23 @@ function Contact() {
         onSubmit: (values, {resetForm} ) => {
             //form is valid
             console.log(values);
-
-            //API.sendForm(values).then(res => {console.log(res); setSuccess(true);})
+            
             axios.post("https://submit-form.com/zOzOvv4P3ONxvD6E2pK4n", values).then(() => {
                 console.log("success!")
+                setSuccess(true);
             }).catch((err) => {
                 console.log(err);
             });
-            //in the .then after sendingform reset values
+            
             resetForm({ values: "" });
+            //sets success back to false after 12 seconds
+            setTimeout(() => {
+                setSuccess(false);
+            }, 1200);
         }
     });
     //if successful a thank you message shows/////////////
-    // const [success, setSuccess] = useState(false);
+    const [success, setSuccess] = useState(false);
 
 
     return (
@@ -61,6 +64,7 @@ function Contact() {
             textErrors={formik.errors.text}
             textTouched={formik.touched.text}
             handleBlur={formik.handleBlur}
+            success={success}
             />
         </div>
     );
