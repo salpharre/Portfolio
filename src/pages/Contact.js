@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ContactMe from "../components/ContactMe";
 // import API from "../../utils";
 import { useFormik } from "formik";
+import axios from "axios";
 
 ////////style the error messages!!!!
 
@@ -35,13 +36,17 @@ function Contact() {
             console.log(values);
 
             //API.sendForm(values).then(res => {console.log(res); setSuccess(true);})
-
+            axios.post("https://submit-form.com/zOzOvv4P3ONxvD6E2pK4n", values).then(() => {
+                console.log("success!")
+            }).catch((err) => {
+                console.log(err);
+            });
             //in the .then after sendingform reset values
             resetForm({ values: "" });
         }
     });
     //if successful a thank you message shows/////////////
-    const [success, setSuccess] = useState(false);
+    // const [success, setSuccess] = useState(false);
 
 
     return (

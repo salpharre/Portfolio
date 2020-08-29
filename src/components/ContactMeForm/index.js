@@ -3,10 +3,12 @@ import "../ContactMe/style.css";
 
 function ContactMeForm(props) {
     return (
-        <div className="card"> 
+        <div className="card">
+            <div className="card-body">
             <form onSubmit={props.form}>
                 <div className="form-group row">
-                    <div className="col-6">
+                    <div className="col">
+                        <label>Email</label>
                         <input 
                         type="email" 
                         className="form-control" 
@@ -21,7 +23,8 @@ function ContactMeForm(props) {
                     </div>
                 </div>
                 <div className="form-group row">
-                    <div className="col-6">
+                    <div className="col">
+                        <label>Message</label>
                         <textarea 
                         type="text"
                          className="form-control" 
@@ -38,6 +41,7 @@ function ContactMeForm(props) {
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
+            </div> 
         </div>
     );
 };
