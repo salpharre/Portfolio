@@ -19,7 +19,9 @@ function ContactMeForm(props) {
                         onBlur={props.handleBlur}
                         value={props.email}
                         ></input>
+                        <div className="error">
                         {props.emailErrors && props.emailTouched ? <div>{props.emailErrors}</div> : null}
+                        </div>
                     </div>
                 </div>
                 <div className="form-group row">
@@ -36,7 +38,9 @@ function ContactMeForm(props) {
                          onBlur={props.handleBlur}
                          value={props.text}
                          ></textarea>
+                         <div className="error">
                          {props.textErrors && props.textTouched ? <div>{props.textErrors}</div> : null}
+                         </div>
                     </div>
                 </div>
                 <div className="row">

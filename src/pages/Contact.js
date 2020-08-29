@@ -6,7 +6,7 @@ import axios from "axios";
 ////////style the error messages!!!!
 
 function Contact() {
-
+    //validates form entries
     const validate = values => {
         const errors = {};
         if (!values.email) {
@@ -48,7 +48,7 @@ function Contact() {
             }, 1200);
         }
     });
-    //if successful a thank you message shows/////////////
+    //when a form is submitted a thank you message shows
     const [success, setSuccess] = useState(false);
 
 

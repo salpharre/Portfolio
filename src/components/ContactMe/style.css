@@ -8,6 +8,11 @@
     padding-left: 0;
 }
 
+.error {
+    color: red;
+    font-size: 17px;
+}
+
 .button {
     padding-right: 0;
 }
