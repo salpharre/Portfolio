@@ -3,7 +3,7 @@ import "../ContactMe/style.css";
 
 function ContactMeForm(props) {
     return (
-        <div className="card">
+        <div className="card test">
             <div className="card-body">
             <form onSubmit={props.form}>
                 <div className="form-group row">

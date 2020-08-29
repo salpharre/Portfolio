@@ -9,7 +9,7 @@ function ContactMe(props) {
                 <h5 className="contactText">Contact</h5>
                 <div className="d-flex row">
                     <div className="col-md">
-                        <div className="card">
+                        <div className="card contactLinks">
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-6">
