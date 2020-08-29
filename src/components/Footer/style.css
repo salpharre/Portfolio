@@ -7,7 +7,7 @@
     position: fixed;
     height: 50px;
     margin-top: auto;
-    z-index: 2; /*needed to keep carousel from scrolling OVER footer at smaller viewports*/
+    z-index: 3; /*needed to keep carousel from scrolling OVER footer at smaller viewports*/
 }
 
 .copyrightP {

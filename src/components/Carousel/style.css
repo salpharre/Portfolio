@@ -2,3 +2,7 @@
     padding-bottom: 5rem;
     z-index: 1;/*One index lower then z-index of 2 for footer, makes sure carousel is beneath footer*/
 }
+
+.carousel-indicators {
+    z-index: 2;
+}
