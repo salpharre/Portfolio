@@ -1,3 +1,4 @@
+/*Works with styling of footer to keep footer always at the bottom*/
 body {
     display: flex;
     flex-direction: column;

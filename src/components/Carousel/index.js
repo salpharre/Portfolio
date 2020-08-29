@@ -8,11 +8,6 @@ function Carousel() {
     return (
         <div className="welcome caro">
             <div id="carouselNext" className="carousel slide carousel-fade" data-ride="carousel">
-                <ol className="carousel-indicators dark">
-                    <li data-target="#carouselNext" data-slide-to="0" className="active"></li>
-                    <li data-target="#carouselNext" data-slide-to="1"></li>
-                    <li data-target="#carouselNext" data-slide-to="2"></li>
-                </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-interval="3000">
                             <img src={img1} className="d-block w-100 img-fluid"
