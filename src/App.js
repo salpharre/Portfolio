@@ -7,8 +7,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-
-//change font for entire page, to use serif -- use global `*` in css for app
+//react router used to create routes between pages
 function App() {
   return (
     <Router>

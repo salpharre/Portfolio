@@ -3,7 +3,7 @@ import img1 from "../../images/beyondvacation.jpg";
 import img2 from "../../images/weather.jpg";
 import img3 from "../../images/directory.jpg";
 import "./style.css";
-
+//carousel of photos but removed from page until change contents of carousel
 function Carousel() {
     return (
         <div className="welcome caro">
@@ -41,4 +41,3 @@ function Carousel() {
 
 export default Carousel;
 
-/*removed indicators as they continued to scroll over footer,*/

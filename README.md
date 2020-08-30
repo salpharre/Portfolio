@@ -2,13 +2,13 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/salpharre/Portfolio) ![npm version](https://badge.fury.io/js/inquirer.svg)
 
-
+Portfolio, created using React. Made with mobile-first design in mind, it is ever evolving, so come check it out! 
 
 ## Table of Contents
 
 * [Demo](#demo)
 * [Installation](#installation)
-* [Usage](#usage)
+* [Overview](#overview)
 * [Technology](#technology)
 * [Contributors](#contributors)
 * [License](#license)
@@ -16,24 +16,30 @@
 
 ### Demo
 
-For [webpage]() - soon
-
-For [demo]() - soon
+For [webpage](https://portfolio-react-app23421.herokuapp.com/)
 
 ### Installation
 
 Enter the following to install:
 `npm install or npm i`
 
-### Usage
+### Overview
 
-soon!
+Personal portfolio, made with React, and Bootstrap. Utilized form component from Formik and api from Formspark.io for form funcitonality. This is an ever evolving project as I delve deeper into React. 
+
+It is composed of four pages, home page, project page, about and contact page. 
+
+* Home: Has a welcome message.
+* Project: Cards of projects with a search bar to search by technology used. in a particular project.
+* About: Contains a photo, with a little bit about me.
+* Contact: Contains links to Linkedin, Github, and info on how to contact me, plus a submitable form.
 
 ### Technology
 
 * VS Code v1.48.0
 * React
 * Bootstrap
+* formspark.io
 * shields.io
 
 ### Contributors
@@ -46,4 +52,4 @@ Public and free-to-use
 
 ### Launch
 
-Launch date: `August 28th, 2020`
+Launch date: `August 30th, 2020`

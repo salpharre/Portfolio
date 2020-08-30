@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-
+//takes in props from project page
 function ProjectCard(props) {
     return (
             <div className="card cardParent">

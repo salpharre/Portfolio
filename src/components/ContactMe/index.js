@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import ContactMeForm from "../ContactMeForm";
-
+//contact page, takes in props to pass along to the contact form
 function ContactMe(props) {
     return (
         <div className="container contactCon mb-5">

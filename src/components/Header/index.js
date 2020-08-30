@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import logo from "../../images/SAlogo5.jpg";
 import { Link } from "react-router-dom";
-
+//contains navbar and logo and name
 function Header() {
     return (
         <div className="jumbotron jumbotron-fluid brand">

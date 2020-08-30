@@ -3,10 +3,9 @@ import ContactMe from "../components/ContactMe";
 import { useFormik } from "formik";
 import axios from "axios";
 
-////////style the error messages!!!!
-
+//hooks for form
 function Contact() {
-    //validates form entries
+    //formik validation form entries
     const validate = values => {
         const errors = {};
         if (!values.email) {
@@ -23,7 +22,7 @@ function Contact() {
         return errors;
     };
 
-    //set up formik
+    //formik hook
     const formik = useFormik({
         initialValues: {
             email: "",
@@ -33,14 +32,14 @@ function Contact() {
         onSubmit: (values, {resetForm} ) => {
             //form is valid
             console.log(values);
-            
+            //api for form
             axios.post("https://submit-form.com/zOzOvv4P3ONxvD6E2pK4n", values).then(() => {
                 console.log("success!")
                 setSuccess(true);
             }).catch((err) => {
                 console.log(err);
             });
-            
+            //resets form input values
             resetForm({ values: "" });
             //sets success back to false after 12 seconds
             setTimeout(() => {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-//add my picture
+//welcomes visitors, for home page
 function Welcome() {
     return (
         <div className="welcome">

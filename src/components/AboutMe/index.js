@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import profile from "../../images/profile2.jpeg"
-
+//profile on about page
 function AboutMe() {
     return (
         <div className="container mb-5 main">
@@ -21,10 +21,8 @@ function AboutMe() {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <p className="aboutText">My name is Sandra Arredondo, I have a bachelor's in Food Science and am currently
-                                training as a
-                                full-stack
-                            web developer through a program at UC Davis Continuing and Professional Education.</p>
+                                <p className="aboutText">My name is Sandra Arredondo, I have a bachelor's in Food Science from UC Davis and am currently
+                                training as a full-stack web developer through a program at UC Davis Continuing and Professional Education.</p>
                             </div>
                         </div>
                         <div className="row">

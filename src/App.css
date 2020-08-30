@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
 }
 
-
+/*change font for entire page and background-color*/
 .App {
     background-color:rgba(255, 255, 255, 0.945);
     font-family: serif;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../ContactMe/style.css";
-
+//takes in props from contact page, for handling change and errors from formik component and thank you message when form submitted succesfully
 function ContactMeForm(props) {
     return (
         <div className="card test">

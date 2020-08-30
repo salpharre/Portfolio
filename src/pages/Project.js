@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import db from "../projects";
 import Search from "../components/Search";
 import "../components/ProjectCard/style.css";
-
+//project page
 function Project() {
     const projectList = db.Projects;
 

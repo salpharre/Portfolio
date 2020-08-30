@@ -1,8 +1,9 @@
+/*One index lower then z-index of 2 for footer, makes sure carousel is beneath footer*/
 .caro {
     padding-bottom: 5rem;
-    z-index: 1;/*One index lower then z-index of 2 for footer, makes sure carousel is beneath footer*/
+    z-index: 1;
 }
-
+/*to make sure carousel does not scroll over the footer*/
 .carousel-indicators {
     z-index: 2;
 }

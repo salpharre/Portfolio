@@ -1,3 +1,4 @@
+//projects to be dynamically created on project page
 const db = {
     Projects: [
         {
