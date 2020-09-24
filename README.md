@@ -16,7 +16,7 @@ Portfolio, created using React. Made with mobile-first design in mind, it is eve
 
 ### Demo
 
-For [webpage](https://portfolio-react-app23421.herokuapp.com/)
+For [webpage](https://react-made-portfolio.herokuapp.com/)
 
 ### Installation
 
