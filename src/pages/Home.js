@@ -6,7 +6,6 @@ function Home() {
     return (
         <div className="container mb-5">
             <Welcome />
-            {/* <Carousel /> */}
         </div>
     )
 };
