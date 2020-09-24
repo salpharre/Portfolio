@@ -1,5 +1,6 @@
 import React from 'react';
-import Home from './pages/Home';
+// import Home from './pages/Home';
+import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
@@ -15,7 +16,7 @@ function App() {
         <Header />
         <div className="container mb-5">
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Landing} />
           <Route exact path="/project" component={Project} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
