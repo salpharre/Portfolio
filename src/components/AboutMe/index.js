@@ -21,13 +21,12 @@ function AboutMe() {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <p className="aboutText">My name is Sandra Arredondo, I have a bachelor's in Food Science from UC Davis and am currently
-                                training as a full-stack web developer through a program at UC Davis Continuing and Professional Education.</p>
+                                <p className="aboutText">My name is Sandra Arredondo, I am a Full-Stack Web Developer applying my previous experience in quality assurance to create polished, optimized mobile-first applications, aiming for a position as a Front-End or Back-End Developer. Certified through UC Davis, my language of choice is JavaScript and I am skilled in React, Nodejs, Express and MongoDB. Over the course of each project I strive to code efficiently and create an optimal user experience, using my past experience in quality control to ensure the best result possible. In an effort to improve user experience while researching social movement organizations, in a group of five, we created a MERN stack app, that uses back-end and front-end authentication to protect specific pages from entry unless a user is logged in. As I move further in my career, I aspire to continue to use and learn new technologies to improve upon user experience.</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col aboutText">
-                                <h2>Skills</h2>
+                                <h2 className="aboutCss">Skills</h2>
                                 <ul>
                                     <li>HTML/CSS</li>
                                     <li>JavaScript</li>
@@ -36,7 +35,7 @@ function AboutMe() {
                                 </ul>
                             </div>
                             <div className="col aboutText">
-                                <h3>Projects</h3>
+                                <h3 className="aboutCss">Projects</h3>
                                 <ul>
                                     <li>Organize</li>
                                     <li>Beyond Vacation</li>

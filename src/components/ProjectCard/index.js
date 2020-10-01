@@ -4,19 +4,22 @@ import "./style.css";
 function ProjectCard(props) {
     return (
             <div className="card cardParent">
+                {(props.deploy ? (
+                <a href={props.deploy} target="_blank" rel="noopener noreferrer" className="deploy">
                 <img src={props.image} className="card-img img-fluid" alt={props.title}></img>
+                </a>) 
+                : (<img src={props.image} className="card-img img-fluid" alt={props.title}></img>))}
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text text-wrap">{props.description}</p>
-                    <p className="card-text"><small className="text-muted">
-                        <a href={props.github} target="_blank" rel="noopener noreferrer" className="github">Github</a>
-                        {(props.deploy ? (<a href={props.deploy} target="_blank" rel="noopener noreferrer" className="deploy">Product</a>) 
-                        : (props.demo ? (<a href={props.demo} target="_blank" rel="noopener noreferrer" className="demo">Demo</a>) 
-                        : <a></a>))}
-                    </small></p>
+                    {(props.deploy ? (<p></p>) : (<p><i>Image does not link to product, refer to the Demo</i></p>))}
+                    <p className="card-text btnParent">
+                        <a href={props.github} role="button" target="_blank" rel="noopener noreferrer" className="btn github">Github</a>
+                        <a href={props.demo} role="button" target="_blank" rel="noopener noreferrer" className="btn demo">Demo</a>
+                    </p>
                 </div>
                 <div className="card-footer">
-                    <p className="card-text"><small className="text-muted">{props.tech}</small></p>
+                    <p className="card-text">{props.tech}</p>
                 </div>
             </div>
     );

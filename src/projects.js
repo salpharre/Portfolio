@@ -7,6 +7,7 @@ const db = {
             "description": "Beyond Vacation is a vacation outdoor rental app, built around the idea of vacationing while still social distancing, it's a vacation away from your (indefinite) vacation.",
             "github": "https://github.com/salpharre/BeyondVacation",
             "deploy": "https://beyond-vacation-app.herokuapp.com/",
+            "demo": "https://youtu.be/xY4kl7mzGEk",
             "images": require("./images/beyondvacation.jpg"),
             "tech": "Nodejs, Express, MySQL"
         },
@@ -16,6 +17,7 @@ const db = {
             "description": "This app allows users to sort employees alphabetically and filter by name",
             "github": "https://github.com/salpharre/Employee-Directory",
             "deploy": "https://employee-directory3247.herokuapp.com/",
+            "demo": "https://youtu.be/WXVXlCT4oUM",
             "images": require("./images/directory.jpg"),
             "tech": "React, Bootstrap"
         },
@@ -34,6 +36,7 @@ const db = {
             "description": "A centralized hub for social movement organizations to share information with their local community, and for the general public to easily obtain this information.",
             "github": "https://github.com/salpharre/Organize2.0",
             "deploy": "https://organize-demo.herokuapp.com/",
+            "demo": "https://youtu.be/5j6DQmioua4?t=420",
             "images": require("./images/organizeMinimized.jpg"),
             "tech": "MongoDB, Express, Reactjs, Nodejs"
         }

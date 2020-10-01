@@ -44,3 +44,10 @@ a {
 /* .contactLinks {
     padding-bottom: 180px;
 } */
+
+.contactLinks, .test {
+    border: #a7c6c3 2px solid;
+    -webkit-box-shadow: 17px 30px 71px -12px rgba(180,184,183,0.3);
+    -moz-box-shadow: 17px 30px 71px -12px rgba(180,184,183,0.3);
+    box-shadow: 17px 30px 71px -12px rgba(180,184,183,0.3);
+}
