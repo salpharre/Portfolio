@@ -64,6 +64,8 @@ function Project() {
                         image={project.images}
                         description={project.description}
                         github={project.github}
+                        deploy={project.deploy}
+                        demo={project.demo}
                         tech={project.tech}
                     />))}
                 </div>

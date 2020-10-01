@@ -10,6 +10,9 @@ function ProjectCard(props) {
                     <p className="card-text text-wrap">{props.description}</p>
                     <p className="card-text"><small className="text-muted">
                         <a href={props.github} target="_blank" rel="noopener noreferrer" className="github">Github</a>
+                        {(props.deploy ? (<a href={props.deploy} target="_blank" rel="noopener noreferrer" className="deploy">Product</a>) 
+                        : (props.demo ? (<a href={props.demo} target="_blank" rel="noopener noreferrer" className="demo">Demo</a>) 
+                        : <a></a>))}
                     </small></p>
                 </div>
                 <div className="card-footer">
@@ -20,3 +23,5 @@ function ProjectCard(props) {
 };
 
 export default ProjectCard;
+
+//if deploy is true

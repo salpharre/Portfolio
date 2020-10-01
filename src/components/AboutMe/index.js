@@ -38,9 +38,9 @@ function AboutMe() {
                             <div className="col aboutText">
                                 <h3>Projects</h3>
                                 <ul>
+                                    <li>Organize</li>
                                     <li>Beyond Vacation</li>
                                     <li>Employee Directory</li>
-                                    <li>Weather Dashboard</li>
                                 </ul>
                             </div>
                         </div>
