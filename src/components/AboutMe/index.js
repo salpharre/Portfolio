@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import profile from "../../images/profile2.jpeg"
+import profile from "../../images/professionalselfie.jpg";
 //profile on about page
 function AboutMe() {
     return (
